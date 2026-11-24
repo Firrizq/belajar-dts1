@@ -1,13 +1,11 @@
-package com.rmn.mybackend;
+package com.rmn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class MybackendApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(MybackendApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(MybackendApplication.class, args);
+    }
 }
